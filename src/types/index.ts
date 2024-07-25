@@ -21,6 +21,7 @@ export type MediaToolOptions = {
 type CustomFields = {
   altText?: string
   description?: string
+  museum?: string
   opt?: {
     media?: {
       tags?: SanityReference[]
